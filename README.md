@@ -25,7 +25,7 @@ Experiments for serving Jupyter Notebook files through Tornado websockets as an 
 
 ---
 
-# Project structure
+# Project structure 🏗
 
 This project is a monorepo containing the following:
 - **backend (lib)**: Tornado Web Server + IPython widgets
