@@ -19,8 +19,8 @@ Experiments for serving Jupyter Notebook files through Tornado websockets as an 
 
 +1 Works embedded inside Jupyter without running a server
 
-<img src="https://github.com/GergoMiklos/plotolo/assets/70636477/6c79a9d0-7e5d-4a7b-9b23-83733ed36a86" width="800">
-<img src="https://github.com/GergoMiklos/plotolo/assets/70636477/30936dc6-8d74-476f-b001-8821b530b106" width="800">
+<img src="https://github.com/GergoMiklos/plotolo/assets/70636477/6c79a9d0-7e5d-4a7b-9b23-83733ed36a86" width="395">
+<img src="https://github.com/GergoMiklos/plotolo/assets/70636477/30936dc6-8d74-476f-b001-8821b530b106" width="395">
 <img src="https://github.com/GergoMiklos/plotolo/assets/70636477/0cb1cd37-8607-46db-adeb-f936cae0b2cf" width="800">
 
 ---
