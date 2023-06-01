@@ -51,9 +51,9 @@ const LineChart = ({data}: WidgetPropsType) => {
   }, [data]);
 
   return (
-    <>
+    <div className="w-full max-w-4xl">
       <div ref={chartContainer}></div>
-    </>
+    </div>
   );
 };
 

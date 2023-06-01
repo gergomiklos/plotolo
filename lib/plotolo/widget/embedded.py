@@ -110,7 +110,7 @@ def embedded_widget(id: str | int, type: str, action: Action, data: dict[str, an
     # merge the previous updates from the storage
     data = {**data, **data_storage.get(id)}
 
-    display(_InlineNotebookWidget(id=str(id), type=type, data=data, debug=_logger.level == logging.DEBUG))
+    display(_InlineNotebookWidget(id=str(id), type=type, data=data))
 
     return data
 
