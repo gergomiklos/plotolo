@@ -2,15 +2,7 @@
 
 ### A full-stack Python framework for creating interactive web applications from Jupyter Notebooks.
 
----
-
 Experiments for serving Jupyter Notebook files through Tornado websockets as an interactive web application.
-
-
-This project is a monorepo containing the following:
-- **backend (lib)**: Tornado Web Server + IPython widgets
-- **frontend**: Next.js Web Application
-- **widget(s)**: React Component Library
 
 ---
 
@@ -29,10 +21,22 @@ This project is a monorepo containing the following:
 
 ---
 
+# Project structure
+
+This project is a monorepo containing the following:
+- **backend (lib)**: Tornado Web Server + IPython widgets
+- **frontend**: Next.js Web Application
+- **widget(s)**: React Component Library
+
+---
+
 # How to run 🏃🏽
 
-_Currently only in dev mode_
+_Currently only the dev mode is supported._
 
+Prerequisites:
+- Python >= 3.9 + PiP
+- Node.js >= 18.0
 ---
 
 ### Install dependencies:
@@ -41,9 +45,7 @@ pip install -r requirements.txt
 cd ./frontend
 npm install
 ```
-
 ---
-
 
 ### Embedded mode from a Notebook:
 Use an existing example or create a new Notebook:
@@ -51,11 +53,9 @@ Use an existing example or create a new Notebook:
 cd ./examples
 jupyter notebook
 ```
-
 ---
 
 ### Standalone server mode:
-
 Start backend:
 ```bash
 python ./main.py
@@ -66,10 +66,9 @@ cd ./frontend
 npm run dev
 ```
 Then go to [http://localhost:3000](http://localhost:3000)
-
 ---
 
-Start widget Storybook:
+Start widget storybook:
 ```bash
 cd ./widget
 npm run storybook
